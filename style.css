@@ -1,0 +1,76 @@
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(243, 223, 197);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul li ul {
+    margin-left: 20px;
+    background-color: rgb(245, 228, 206);
+}
+
+ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+i {
+    float: right;
+}
+
+.menu-content {
+    display: none;
+}
+
+.menu1-content {
+    display: none;
+}
+
+.menu2-content {
+    display: none;
+}
+
+.menu3-content {
+    display: none;
+}
+
+.menu4-content {
+    display: none;
+}
+
+.droplist {
+    display: block;
+}
+
+.droplist1 {
+    display: block;
+}
+
+ul li:hover {
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+ul li ul li:hover {
+    border: 1px dashed black;
+}
+
+.droplist2 {
+    display: block;
+}
+
+.droplist3 {
+    display: block;
+}
+
+.droplist4 {
+    display: block;
+}

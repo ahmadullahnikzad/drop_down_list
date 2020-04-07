@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b7655a4376.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="theme">
+    <ul>
+        <li>
+            <a href="#home">Microsoft 365</a>
+        </li>
+        <li>
+            <a href="#home">Office</a>
+        </li>
+        <li>
+            <a href="#home">Windows</a>
+        </li>
+        <li>
+            <a href="#home">Surface</a>
+        </li>
+        <li>
+            <a href="#home">Xbox</a>
+        </li>
+        <li>
+            <a href="#home">Spport</a>
+        </li>
+        <li class="menu" onclick="dropdown()">
+            <a href="#home">Software <i class="fa fa-angle-down" onclick="dropdown()"></i></a>
+            <ul class="menu-content">
+                <li>
+                    <a href="#home">OneDrive</a>
+                </li>
+                <li>
+                    <a href="#home">Outlook</a>
+                </li>
+                <li>
+                    <a href="#home">Skype</a>
+                </li>
+                <li>
+                    <a href="#home">OneNote</a>
+                </li>
+            </ul>
+            <li class="menu1" onclick="dropdown1()">
+                <a href="#home">Pcs & Devices <i class="fa fa-angle-down fa1" onclick="dropdown1()"></i></a>
+                <ul class="menu1-content">
+                    <li>
+                        <a href="#home">PCs & tablets</a>
+                    </li>
+                    <li>
+                        <a href="#home">Accessories</a>
+                    </li>
+                </ul>
+            </li>
+        </li>
+        <li>
+            <a href="#home">Entertainment</a>
+        </li>
+        <li class="menu2" onclick="dropdown2()">
+            <a href="#home">Business <i class="fa fa-angle-down fa2" onclick="dropdown2()"></i></a>
+            <ul class="menu2-content">
+                <li>
+                    <a href="#home">Microsoft Azure</a>
+                </li>
+                <li>
+                    <a href="#home ">Microsoft Dynamic 365</a>
+                </li>
+                <li>
+                    <a href="#home ">Microsoft 365</a>
+                </li>
+                <li>
+                    <a href="#home ">Microsoft Industry</a>
+                </li>
+                <li>
+                    <a href="#home ">Data platform</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu3 " onclick="dropdown3()">
+            <a href="#home ">Developer & IT <i class="fa fa-angle-down fa3 " onclick="dropdown3() "></i></a>
+            <ul class="menu3-content ">
+                <li>
+                    <a href="#home ">.NET</a>
+                </li>
+                <li>
+                    <a href="#home ">Visual Studio</a>
+                </li>
+                <li>
+                    <a href="#home ">Windows Server</a>
+                </li>
+                <li>
+                    <a href="#home ">Windows Dev Center</a>
+                </li>
+                <li>
+                    <a href="#home ">Docs</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu4 " onclick="dropdown4() ">
+            <a href="#home ">Other <i class="fa fa-angle-down fa4 " onclick="dropdown4() "></i></a>
+            <ul class="menu4-content ">
+                <li>
+                    <a href="#home ">Free downloads & security</a>
+                </li>
+                <li>
+                    <a href="#home ">Education</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#home ">View Sitemap</a>
+        </li>
+    </ul>
+    <script>
+        function dropdown() {
+            document.querySelector('.menu-content').classList.toggle('droplist');
+            document.querySelector('.fa').classList.toggle('fa-rotate-180');
+        }
+
+        function dropdown1() {
+            document.querySelector('.menu1-content').classList.toggle('droplist1');
+            document.querySelector('.fa1').classList.toggle('fa-rotate-180');
+        }
+
+        function dropdown2() {
+            document.querySelector('.menu2-content').classList.toggle('droplist2');
+            document.querySelector('.fa2').classList.toggle('fa-rotate-180');
+        }
+
+        function dropdown3() {
+            document.querySelector('.menu3-content').classList.toggle('droplist3');
+            document.querySelector('.fa3').classList.toggle('fa-rotate-180');
+        }
+
+        function dropdown4() {
+            document.querySelector('.menu4-content').classList.toggle('droplist4');
+            document.querySelector('.fa4').classList.toggle('fa-rotate-180');
+        }
+    </script>
+</body>
+
+</html>
